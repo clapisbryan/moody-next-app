@@ -28,3 +28,12 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.purple-shadow {
+  box-shadow: 3px 3px 1px 1px lavender;
+}
+
+.purple-shadow:hover {
+  transform: translate(3px, 3px);
+  box-shadow: 0px 0px 1px 1px lavender;
+}
